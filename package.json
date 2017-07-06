@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "devDependencies": {
+    "browserify": "^14.4.0"
+  },
+  "dependencies": {
+    "nanocomponent": "^5.0.3",
+    "nanomorph": "^5.1.2"
+  },
+  "scripts": {
+    "build": "browserify index.js > browser.js"
+  }
+}
